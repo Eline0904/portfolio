@@ -166,3 +166,15 @@ footer {
     border-radius: 10px;
     padding: 10px;
 }
+.Cookies {
+    background-color: #132c3d;
+    max-width: 200px;
+    padding: 50px;
+    bottom: 27px;
+    z-index: 100;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    display: inline-block;
+}
