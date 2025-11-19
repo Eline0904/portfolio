@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #1B3C53;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: baseline;
+    align-content: stretch;
+}
+
+header {
+    background-color: #234C6A !important;
+    border-radius: 10px;
+}
+
+li {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    background-color: #667886;
+    color: white;
+    height: 100%;
+    padding: 0.75rem 2.5rem;
+    margin: 1rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+a:hover {
+    background-color: #BFCDE0;
+    color: #333;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.Hoofd {
+    text-align: center;
+}
+
+.Hoofd>h4 {
+    text-align: center;
+    display: Flex;
+    justify-content: center;
+}
+
+.Hoofd>h3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+main {
+    background: #234C6A;
+    color: white;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    gap: 25px;
+}
+
+img {
+    width: 300px;
+    border-radius: 100px;
+    text-align: left;
+    align-items: left;
+
+}
+
+.projecten {
+    background-color: #667886;
+    outline: #333;
+    display: inline-block;
+    width: 38.850vw;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+    height: 50vh;
+}
+
+.Home {
+    float: left;
+}
+
+a:focus {
+    background-color: #BFCDE0;
+}
+
+.Contact {
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+form {
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+        height: 2.5rem;
+        border-radius: 10px;
+        padding-left: 5px;
+        background-color: #1B3C53;
+        border: #1B3C53;
+        color: white;
+    }
+
+    button {
+        margin: 0;
+        display: inline-flex;
+        position: relative;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+        background-color: #667886;
+        font-size: 0.875rem;
+        min-width: 64px;
+        box-sizing: border-box;
+        font-weight: 500;
+        line-height: 1.75;
+        border-radius: 4px;
+        letter-spacing: 0.05rem;
+        padding: 5px 15px;
+        color: #fff;
+        border: 1px solid #667886;
+        margin-top: 16px;
+        border-radius: 10px;
+    }
+
+    button:hover {
+        background-color: #BFCDE0;
+        color: #333;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    }
+}
+.aboutme {
+    max-width: 500px;
+    
+}
+footer {
+    background-color: #234C6A;
+    color: #fff;
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
