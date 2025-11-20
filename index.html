@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/Style.css">
+    <script src="https://kit.fontawesome.com/20f4c2d26e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -18,6 +19,10 @@
                 <li><a href="aboutme.html"> About me</a></li>
                 <li><a href="Projects.html"> Projects</a></li>
                 <li><a href="Contact.html"> Contact</a></li>
+                <div class="DarkMode">
+                    <button onclick="toggleDarkMode()">
+                        <i class="fa-solid fa-moon"></i> Dark Mode
+                    </button>
             </ul>
         </nav>
     </header>
@@ -37,11 +42,12 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         <br />
         <button id="Accept" onclick="verwijderCookieFunctie()">Accepteer</button>
-        <button onclick="verwijderCookieFunctie()">Verwijder</button>
+        <button id="Decline" onclick="verwijderCookieFunctie()">Verwijder</button>
         <a href="LearnMore">Learn more</a>
     </div>
     <footer>
         <p> Lorem ipsum </p>
+        <button onclick="randomKleur()">Random</button>
     </footer>
 </body>
 

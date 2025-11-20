@@ -25,6 +25,9 @@ function verwijderCookieFunctie() {
         cookieBanner.style.display = 'none';
         setCookie('cookiesAccepted', 'true', 365);
         console.log('Cookies accepted and banner hidden.');
+        if (this.id === 'Decline') {
+            console.log('User declined cookies.');
+        }
     }
 }
 
@@ -40,3 +43,16 @@ window.addEventListener('DOMContentLoaded', function() {
         btn.addEventListener('click', verwijderCookieFunctie);
     });
 });
+function toggleDarkMode() {
+    document.body.classList.toggle('darkMode');
+    if (document.body.classList.contains('darkMode')) {
+        console.log('Dark mode is now ON.');
+    } else {
+        console.log('Dark mode is now OFF.');
+    }
+}
+function randomKleur() {
+    let colors = ['#FF5733', '#33FF57', '#3357FF', '#F333FF', '#33FFF5', '#ffffff'];
+document.body.style.backgroundColor = colors[Math.floor(Math.random() * 5)];
+console.log('Background color changed to: ' + document.body.style.backgroundColor);
+}

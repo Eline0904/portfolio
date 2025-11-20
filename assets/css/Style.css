@@ -209,3 +209,24 @@ footer {
     margin-bottom:15px;
     margin-left: 1px; 
 }
+.darkMode {
+    background-color: #ffffff;
+    color: #000000;
+}
+nav .DarkMode button {
+    background-color: #234C6A;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}   
+nav .DarkMode button:hover {
+    background-color: #BFCDE0;
+    color: #333;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}   
+H1 .DarkMode {
+    color: #ffffff !important;
+}
