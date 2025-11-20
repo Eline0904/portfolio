@@ -173,7 +173,9 @@ footer {
     background-color: #132c3d;
     color: #fff;
     max-width: 200px;
-    padding: 30px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-right: 50px;
     bottom: 27px;
     z-index: 100;
     border-radius: 10px;
@@ -199,8 +201,11 @@ footer {
 
 .Cookies>a {
     font-size: 10px;
-    padding: 10px;
+    padding: 5px;
     width: fit-content;
     text-decoration: underline;
-
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom:15px;
+    margin-left: 1px; 
 }
