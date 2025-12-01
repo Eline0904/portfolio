@@ -14,13 +14,6 @@
         <div class="Home">
             <a href="index.html">Home</a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="aboutme.html"> About me</a></li>
-                <li><a href="Projects.html"> Projects</a></li>
-                <li><a href="Contact.html"> Contact</a></li>
-            </ul>
-        </nav>
     </header>
     <main>
         <form id="contact">

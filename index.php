@@ -15,16 +15,6 @@
             <a href="index.html">home</a>
         </div>
         <nav>
-            <ul>
-                <li><a href="aboutme.html"> About me</a></li>
-                <li><a href="Projects.html"> Projects</a></li>
-                <li><a href="Contact.html"> Contact</a></li>
-                <div class="DarkMode">
-                    <button onclick="toggleDarkMode()">
-                        <i class="fa-solid fa-moon"></i> Dark Mode
-                    </button>
-            </ul>
-        </nav>
     </header>
     <main>
         <img src="./assets/img/INPG8298.JPG" alt="profiel">
@@ -51,7 +41,6 @@
     </footer>
 </body>
 
-<!-- Script later ingeladen omdat het moet wachten op de elementen-->
 <script src="assets/js/index.js"></script>
 
 </html>
