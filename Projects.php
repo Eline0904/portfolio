@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/Style.css">
+    <script src="https://kit.fontawesome.com/20f4c2d26e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-                <div class="Home">
-                    <a href="index.html">home</a>
-                </div>
+        <?php include 'includes/nav.php'; ?>
     </header>
     <main>
         <div class="projecten">
@@ -22,8 +21,8 @@
             Project2
         </div>
     </main>
-     <footer>
-        <p> Lorem ipsum </p>
+    <footer>
+        <?php include 'includes/footer.php'; ?>
     </footer>
 </body>
 

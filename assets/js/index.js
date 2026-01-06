@@ -31,28 +31,35 @@ function verwijderCookieFunctie() {
     }
 }
 
-window.addEventListener('DOMContentLoaded', function() {
-    if (getCookie('cookiesAccepted') === 'true') {
-        const cookieBanner = document.querySelector('.Cookies');
-        if (cookieBanner) cookieBanner.style.display = 'none';
-        console.log('Cookies already accepted; banner hidden.');
-    }
-    const acceptBtn = document.getElementById('Accept');
-    const buttons = document.querySelectorAll('.Cookies button');
-    buttons.forEach(btn => {
-        btn.addEventListener('click', verwijderCookieFunctie);
-    });
-});
 function toggleDarkMode() {
     document.body.classList.toggle('darkMode');
     if (document.body.classList.contains('darkMode')) {
         console.log('Dark mode is now ON.');
     } else {
         console.log('Dark mode is now OFF.');
-    }
+    } 
 }
 function randomKleur() {
     let colors = ['#FF5733', '#33FF57', '#3357FF', '#F333FF', '#33FFF5', '#ffffff'];
 document.body.style.backgroundColor = colors[Math.floor(Math.random() * 5)];
 console.log('Background color changed to: ' + document.body.style.backgroundColor);
+}
+
+function Greeting() {
+    const myDate = new Date();
+    const hours = myDate.getHours();
+    console.log('Greeting() called — current Date:', myDate);
+    let greet;
+    if (hours >= 6 && hours < 12) {
+        greet = "Goedemorgen!";
+    }
+    else if (hours >= 12 && hours < 18) {
+        greet = "Goedemiddag!";
+    }
+    else if (hours >= 18 && hours < 24) {
+        greet = "Goedenavond!";
+    }
+    else {
+        greet = "Goedenacht!";
+    }
 }

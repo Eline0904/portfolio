@@ -11,9 +11,7 @@
 
 <body>
     <header>
-        <div class="Home">
-            <a href="index.html">Home</a>
-        </div>
+        <?php include 'includes/nav.php'; ?>
     </header>
     <main>
         <form id="contact">
@@ -30,7 +28,7 @@
         </div>
     </main>
      <footer>
-        <p> Lorem ipsum </p>
+        <?php include 'includes/footer.php'; ?>
     </footer>
 </body>
 

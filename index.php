@@ -11,20 +11,19 @@
 
 <body>
     <header>
-        <div class="Home">
-            <a href="index.html">home</a>
-        </div>
-        <nav>
+<?php include 'includes/nav.php'; ?>
     </header>
     <main>
         <img src="./assets/img/INPG8298.JPG" alt="profiel">
         <div class="Hoofd">
+            <p id="greeting">Hallo!</p>
             <h1> Software developer</h1>
             <br />
             <h3>Hallo!</h3>
             <h4>Ik ben Eline Kruithof. </h4>
             <p> Ik ben 16 jaar oud, kijk voor verdere informatie op de andere tabbladen.</p>
         </div>
+        
     </main>
     <div class="Cookies">
         <h5>Wij gebruiken Cookies</h5>
@@ -36,11 +35,15 @@
         <a href="LearnMore">Learn more</a>
     </div>
     <footer>
-        <p> Lorem ipsum </p>
-        <button onclick="randomKleur()">Random</button>
+        <?php include 'includes/footer.php'; ?>
     </footer>
+    <script>console.log('Inline check: page scripts are running.');</script>
+    <script src="assets/js/index.js"></script>
+    <script>
+        console.log('window.Greeting =', typeof window.Greeting);
+        console.log('document.readyState =', document.readyState);
+        console.log('greeting element exists =', !!document.getElementById('greeting'));
+    </script>
 </body>
-
-<script src="assets/js/index.js"></script>
 
 </html>
